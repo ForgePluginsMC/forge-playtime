@@ -1,0 +1,31 @@
+# ForgePlaytime configuration
+# Each milestone: time accepts s/m/h/d/w (e.g. 30m, 2h, 1d).
+# rewards run from console; %player% is replaced with the claiming player's name.
+# gui-name / gui-lore support MiniMessage formatting.
+
+milestones:
+  - time: "30m"
+    rewards:
+      - "give %player% diamond 5"
+    gui-item: "DIAMOND"
+    gui-name: "<aqua>30 Minutes"
+    gui-lore:
+      - "<gray>Thanks for sticking around!"
+      - "<gray>Reward: <white>5 diamonds"
+  - time: "2h"
+    rewards:
+      - "give %player% netherite_ingot 2"
+      - "eco give %player% 500"
+    gui-item: "NETHERITE_INGOT"
+    gui-name: "<light_purple>2 Hours"
+    gui-lore:
+      - "<gray>A true grinder."
+      - "<gray>Reward: <white>2 netherite ingots + $500"
+  - time: "1d"
+    rewards:
+      - "give %player% elytra 1"
+    gui-item: "ELYTRA"
+    gui-name: "<gold>1 Day"
+    gui-lore:
+      - "<gray>An entire day of playtime. Legendary."
+      - "<gray>Reward: <white>1 elytra"

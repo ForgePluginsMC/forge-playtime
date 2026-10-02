@@ -1,0 +1,25 @@
+name: ForgePlaytime
+version: 1.0.0
+main: com.forge.playtime.ForgePlaytime
+api-version: '26.3'
+author: Forge
+description: Track player playtime and hand out claimable milestone rewards via GUI.
+website: https://ugig.net
+
+commands:
+  playtime:
+    description: Open the playtime milestone GUI (or view another player's stats as admin).
+    usage: /playtime [player]
+    permission: forgeplaytime.use
+  fplaytime:
+    description: ForgePlaytime admin commands.
+    usage: /fplaytime reload
+    permission: forgeplaytime.admin
+
+permissions:
+  forgeplaytime.use:
+    description: Allows using /playtime to view and claim milestones.
+    default: true
+  forgeplaytime.admin:
+    description: Allows /playtime <player> and /fplaytime reload.
+    default: op
