@@ -122,4 +122,4 @@ Compiles with `javac` directly against the Paper API jars (no Gradle daemon need
 
 ---
 
-<p align="center"><i>Part of the <a href="https://github.com/ChristopherIrwin">Forge</a> plugin suite — original implementations, zero dependencies.</i></p>
+<p align="center"><i>Part of the <a href="https://github.com/ForgePluginsMC">Forge</a> plugin suite — original implementations, zero dependencies.</i></p>
