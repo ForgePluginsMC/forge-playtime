@@ -1,4 +1,21 @@
-# ForgePlaytime
+<p align="center">
+  <img src="assets/logo.webp" width="160" alt="ForgePlaytime logo">
+</p>
+
+<h1 align="center">ForgePlaytime</h1>
+
+<p align="center"><i>Per-second playtime tracking with claimable milestone rewards in a 54-slot GUI.</i></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-ff7b2e?style=for-the-badge" alt="version 1.0.0">
+  <img src="https://img.shields.io/badge/Paper-26.3-2f9e6e?style=for-the-badge" alt="Paper 26.3">
+  <img src="https://img.shields.io/badge/Java-25-f89820?style=for-the-badge" alt="Java 25">
+  <img src="https://img.shields.io/badge/54_slot_GUI-2563eb?style=for-the-badge" alt="54-slot GUI">
+  <img src="https://img.shields.io/badge/MiniMessage-b565d8?style=for-the-badge" alt="MiniMessage">
+  <img src="https://img.shields.io/badge/dependencies-zero-6b7280?style=for-the-badge" alt="zero dependencies">
+</p>
+
+---
 
 Track player playtime and hand out claimable milestone rewards through a 54-slot GUI. Playtime accrues once per second for every online player, persists to disk, and milestones unlock as players cross configured thresholds — each showing a claimed, available, or locked state until the player clicks to claim one-time console-command rewards. Original implementation; zero dependencies beyond the Paper API (Adventure ships with Paper).
 
@@ -100,3 +117,7 @@ Compiles with `javac` directly against the Paper API jars (no Gradle daemon need
 
 - No deprecated APIs anywhere — enforced by `-Werror` at compile time.
 - Nullness annotations throughout: `@NotNullByDefault` on the `com.forge.playtime` package, with explicit `@Nullable` on genuinely nullable returns (`PlaytimeStore.findByName`, `PlaytimeGui.Holder.getInventory`).
+
+---
+
+<p align="center"><i>Part of the <a href="https://github.com/ChristopherIrwin">Forge</a> plugin suite — original implementations, zero dependencies.</i></p>
