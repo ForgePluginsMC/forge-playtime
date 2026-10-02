@@ -15,6 +15,8 @@
   <img src="https://img.shields.io/badge/dependencies-zero-6b7280?style=for-the-badge" alt="zero dependencies">
 </p>
 
+<p align="center"><sub>Not affiliated with <a href="https://minecraftforge.net">MinecraftForge</a> — "Forge" is just a name.</sub></p>
+
 ---
 
 Track player playtime and hand out claimable milestone rewards through a 54-slot GUI. Playtime accrues once per second for every online player, persists to disk, and milestones unlock as players cross configured thresholds — each showing a claimed, available, or locked state until the player clicks to claim one-time console-command rewards. Original implementation; zero dependencies beyond the Paper API (Adventure ships with Paper).
